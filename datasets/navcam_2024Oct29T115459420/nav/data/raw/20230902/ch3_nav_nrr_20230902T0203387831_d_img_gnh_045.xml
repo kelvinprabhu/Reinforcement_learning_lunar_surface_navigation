@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml-model href="https://isda.issdc.gov.in/pds4/isda/v1/ch2_ldd_ISDA_1000.sch" schematypens="http://purl.oclc.org/dsdl/schematron" ?><Product_Ancillary xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:disp="http://pds.nasa.gov/pds4/disp/v1" xmlns:isda="https://isda.issdc.gov.in/pds4/isda/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:sp="http://pds.nasa.gov/pds4/sp/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1 http://pds.nasa.gov/pds4/pds/v1/PDS4_PDS_1B00.xsd                  http://pds.nasa.gov/pds4/disp/v1 http://pds.nasa.gov/pds4/disp/v1/PDS4_DISP_1301.xsd                 http://pds.nasa.gov/pds4/sp/v1 http://pds.nasa.gov/pds4/sp/v1/PDS4_SP_1100.xsd           https://isda.issdc.gov.in/pds4/isda/v1 https://isda.issdc.gov.in/pds4/isda/v1/ch2_ldd_ISDA_1000.xsd">
+
+
+    <Identification_Area>
+        <logical_identifier>urn:isro:isda:ch3_chr.nav:data_raw:ch3_nav_nrr_20230902t0203387831_d_img_gnh_045</logical_identifier>
+        <version_id>1.0</version_id>
+        <title>Chandrayaan-3 Rover NavCam Mobility Experiment</title>
+        <information_model_version>1.11.0.0</information_model_version>
+        <product_class>Product_Ancillary</product_class>
+        <Modification_History>
+            <Modification_Detail>
+                <modification_date>2024-06-11</modification_date>
+                <version_id>1.0</version_id>
+                <description>PDS4 product label created by SAC DP Team</description>
+            </Modification_Detail>
+        </Modification_History>
+    </Identification_Area>
+    <Context_Area>
+        <Time_Coordinates>
+            <start_date_time>2023-09-02T02:03:38.7831Z</start_date_time>
+            <stop_date_time>2023-09-02T02:03:50.4291Z</stop_date_time>
+        </Time_Coordinates>
+        <Primary_Result_Summary>
+            <purpose>Navigation</purpose>
+	    <processing_level>Raw</processing_level>
+            <description>Raw Processing Level describes the raw data without any correction applied.</description>
+	</Primary_Result_Summary>
+        <Investigation_Area>
+            <name>Chandrayaan-3</name>
+            <type>Mission</type>
+            <Internal_Reference>
+                <lidvid_reference>urn:isro:isda:context:investigation:mission.chandrayaan3::1.0</lidvid_reference>
+                <reference_type>data_to_investigation</reference_type>
+            </Internal_Reference>
+        </Investigation_Area>
+        <Observing_System>
+            <Observing_System_Component>
+                <name>Chandrayaan-3 Rover Module</name>
+                <type>Spacecraft</type>
+                <description>
+                     Chandrayaan-3 Rover module is a rover craft consists of various scientific instruments.
+                </description>
+            </Observing_System_Component>
+            <Observing_System_Component>
+                <name>Navigational Camera</name>
+                <type>Instrument</type>
+                <description>
+                    Navigational Camera (NavCam) is one of the engineering instrument hosted 
+                    on the Chandrayaan-3 Rover Module. This instrument is used for rover mobility
+                    on lunar surface.
+                </description>
+            </Observing_System_Component>
+        </Observing_System>
+        <Target_Identification>
+            <name>Moon</name>
+            <type>Satellite</type>
+            <description>Moon is a natural satellite of Earth</description>
+        </Target_Identification>	
+        <Mission_Area>
+            <isda:Product_Parameters>
+                <isda:job_id>NCBXXGNHC3R0018000NNNN23245050101070_V1_1</isda:job_id>
+                <isda:dumping_orbit_number>180</isda:dumping_orbit_number>
+                <isda:dop>20230902</isda:dop>
+                <isda:frame_number>2</isda:frame_number>
+                <isda:current_mobility_id>044</isda:current_mobility_id>
+                <isda:future_mobility_id>045</isda:future_mobility_id>
+                <isda:operation_id>000001</isda:operation_id>
+                <isda:day_no>245</isda:day_no>
+                <isda:year>2023</isda:year>
+                <isda:inclinometer_utc>2023:244:10:49:00:7082023:244:10:49:00:578</isda:inclinometer_utc>
+                <isda:inclinometer_x_angle>-1.713</isda:inclinometer_x_angle>
+                <isda:inclinometer_y_angle>0.000</isda:inclinometer_y_angle>
+                <isda:inclinometer_roll_angle>0.0</isda:inclinometer_roll_angle>
+                <isda:inclinometer_pitch_angle>0.0</isda:inclinometer_pitch_angle>
+                <isda:sensor_id>right camera</isda:sensor_id>
+                <isda:gain>2</isda:gain>
+                <isda:integration_time>27</isda:integration_time>
+            </isda:Product_Parameters>
+        </Mission_Area>
+    </Context_Area>
+    <File_Area_Ancillary>
+        <File>
+            <file_name>ch3_nav_nrr_20230902T0203387831_d_img_gnh_045.png</file_name>
+            <creation_date_time>2024-06-12T15:38:21</creation_date_time>
+            <file_size unit="byte">617714</file_size>
+            <md5_checksum>e91400dc1887b3d088c73e8162ac7193</md5_checksum>
+            <comment>
+                This File contains the count raw image in png format. 
+                md5_checksum is provided for ensuring data integrity when users are downloading the data.
+            </comment>
+        </File>
+        <Encoded_Image>
+		<name>ch3_nav_nrr_20230902T0203387831_d_img_gnh_045</name>
+		<offset unit="byte">0</offset>
+		<encoding_standard_id>PNG</encoding_standard_id>
+	</Encoded_Image>
+    </File_Area_Ancillary>
+</Product_Ancillary>
